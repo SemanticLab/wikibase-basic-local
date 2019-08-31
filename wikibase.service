@@ -1,0 +1,11 @@
+[Unit]
+Description=wikibase
+After=docker.service
+Requires=docker.service
+
+[Service]
+TimeoutStartSec=0
+ExecStart=/opt/bin/docker-compose --file /home/core/wikibase-docker/docker-compose.yml up -d
+
+[Install]
+WantedBy=multi-user.target
