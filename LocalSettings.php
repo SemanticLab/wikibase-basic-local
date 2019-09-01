@@ -83,5 +83,3 @@ wfLoadExtension( 'cldr' );
 
 # EntitySchema
 wfLoadExtension( 'EntitySchema' );
-
-$wgShowExceptionDetails = true;
