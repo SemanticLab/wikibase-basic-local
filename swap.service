@@ -1,0 +1,8 @@
+[Unit]
+Description=Turn on swap
+
+[Swap]
+What=/var/vm/swapfile1
+
+[Install]
+WantedBy=multi-user.target
