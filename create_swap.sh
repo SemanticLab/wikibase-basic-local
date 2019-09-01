@@ -1,5 +1,5 @@
 mkdir -p /var/vm
-fallocate -l 1024m /var/vm/swapfile1
+fallocate -l 4000m /var/vm/swapfile1
 chmod 600 /var/vm/swapfile1
 mkswap /var/vm/swapfile1
 
